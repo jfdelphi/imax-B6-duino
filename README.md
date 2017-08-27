@@ -28,5 +28,5 @@ USBASP programmer
 - (currently iuse a old version of avrdude.exe 14.03.2009 and avrdude.conf from 14.03.2009 ... that allowes using the china usbasp) i must check if the new versions of avrdude works too. i also ordered a USBtinyISP ...  
 - nice picture on how connect the wires https://habrastorage.org/files/cc9/dd7/52a/cc9dd752aae141a496b4fbd79da0961f.jpg
  
- -USE CTRL-SHIFT-U to upload the codes ... the UPLOAD BUTTON WILL NOT WORK !!!
- 
+- USE CTRL-SHIFT-U to upload the codes ... the UPLOAD BUTTON WILL NOT WORK !!!
+
