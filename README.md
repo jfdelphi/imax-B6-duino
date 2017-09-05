@@ -10,6 +10,8 @@ THE GOAL IS TO MAKE A SIMPLE ARDUINO SKETCH ... not a unviversal charger softwar
 
 HARDWARE
 --------
+https://ae01.alicdn.com/kf/HTB1x3xjIXXXXXcNXXXXq6xXFXXX1/Free-shipping-IMAX-B6-80W-Digital-RC-Lipo-NiMh-Battery-Balance-Charger-AC-POWER-12V-5A.jpg
+
 the imax b6 is a atmega32a based battery charger.
 - smps buck boost converter , controlled fully by the arduino
 - 6 channel balancer
@@ -17,7 +19,7 @@ the imax b6 is a atmega32a based battery charger.
 - 2x16 lcd display and 4 buttons
 
 
-SETUP ARDUINO
+SETUP ARDUINO dev enviroment
 -------------
 enable ATMEGA32a compiling
 - https://learn.adafruit.com/add-boards-arduino-v164/setup
@@ -30,3 +32,22 @@ USBASP programmer
  
 - USE CTRL-SHIFT-U to upload the codes ... the UPLOAD BUTTON WILL NOT WORK !!!
 
+
+Current Codes
+-------------
+THINGS THAT WORK
+- lcd display
+- buck converter !
+  - current limiter
+- stage logic
+  - the logic to charge lifepo4 batteries
+- balancer logic  
+
+CURRENT PROBLEM
+- MULTIPLEXER reading the cells voltages
+
+NEXT
+- boost converter
+- assign some basic functions to the buttons
+- boost charger signal ( all cells < 3.5V )
+- battery ok signal    ( all cells > 3.0V )
