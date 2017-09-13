@@ -18,6 +18,14 @@ the imax b6 is a atmega32a based battery charger.
 - current / voltage meters
 - 2x16 lcd display and 4 buttons
 
+CPU
+http://www.atmel.com/Images/Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Datasheet.pdf
+MightyCore PIN ASSIGNMENT
+https://camo.githubusercontent.com/8466c1b4ca97bf242f00e61a5dbb8e0b0ff6416d/687474703a2f2f692e696d6775722e636f6d2f5464304e6875672e6a7067
+
+
+
+
 
 SETUP ARDUINO dev enviroment
 -------------
