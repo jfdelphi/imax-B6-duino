@@ -42,12 +42,11 @@ THINGS THAT WORK
 - stage logic
   - the logic to charge lifepo4 batteries
 - balancer logic  
-
-CURRENT PROBLEM
 - MULTIPLEXER reading the cells voltages
+- some basic functions to the buttons
 
 NEXT
 - boost converter
-- assign some basic functions to the buttons
+
 - boost charger signal ( all cells < 3.5V )
 - battery ok signal    ( all cells > 3.0V )
