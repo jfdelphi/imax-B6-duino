@@ -1,12 +1,7 @@
 # imax-B6-duino
-arduino based firmware for the imax b6 charger
-THE GOAL IS TO MAKE A SIMPLE ARDUINO SKETCH ... not a unviversal charger software. 
-(there is allready a geat project called cheally charger that can do everything.)
 
-- understand how the hardware works (the smps is very interestic to me)
-- only one type of battery is supported
-- the code shold be as simple as possible
-- the charging must start imedialtly after power up or connect the battery
+arduino based firmware for the imax b6 charger
+the code is made very simple and can be modied to your needs
 
 HARDWARE
 --------
@@ -54,8 +49,7 @@ THINGS THAT WORK
 - MULTIPLEXER reading the cells voltages
 - some basic functions to the buttons
 
-NEXT
+TODO
 - boost converter
-
 - boost charger signal ( all cells < 3.5V )
 - battery ok signal    ( all cells > 3.0V )
